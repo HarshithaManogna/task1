@@ -1,0 +1,208 @@
+.banner_bg {
+    background-image: linear-gradient(to right, rgb(191, 224, 241), rgb(192, 213, 227), rgb(107, 137, 153));
+    margin: 0px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+}
+
+.banner_head {
+    color: rgb(7, 7, 63);
+    font-family: "roboto";
+    font-size: 60px;
+    margin: 0px;
+    font-weight: 900;
+}
+
+.banner_image {
+    height: 70%;
+    width: 60%;
+    border-radius: 250px;
+    margin-right: 160px;
+    margin-left: 50px;
+}
+
+.banner_para {
+    color: rgb(7, 7, 63);
+    font-size: 20px;
+    font-family: "roboto";
+}
+
+.banner_text {
+    text-align: center;
+    margin-left: 160px;
+}
+
+.button {
+    background-color: transparent;
+    color: rgb(7, 7, 63);
+    height: 40px;
+    width: 140px;
+    font-size: 14px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(7, 7, 63);
+}
+
+.wcu-card {
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+    margin-top: 10px;
+}
+
+.icon {
+    font-size: 50px;
+    margin: 5px;
+}
+.wcu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: 500;
+}
+.wcu-card-description {
+    color: #7b8794;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.trend-heading {
+    color: rgb(7, 7, 63);
+    margin: 30px 0;
+    text-align: center;
+}
+.products-card {
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 15px;
+    height: 370px;
+    width: 250px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.products-inner-card {
+    height: 70%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.product-card-heading {
+    margin: 2px;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-family: "roboto";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product-card-para {
+    margin: 2px;
+    text-decoration: line-through;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.offer-para {
+    color: red;
+    margin: 2px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card {
+    height: 170px;
+    width: 300px;
+    text-align: center;
+    margin: 5px;
+    color: white;
+    font-family: "roboto";
+    font-size: 14px;
+}
+
+.card-head {
+    color: white;
+    font-family: "roboto";
+    margin: 5px;
+    font-weight: bold;
+}
+
+.women-card-container {
+    background-image: url("images/women-img1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    width: 250px;
+    text-align: center;
+    margin: 5px;
+    color: white;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-men {
+    background-image: url("images/men-img1.jpg");
+    background-size: cover;
+}
+
+.card-foot-wear {
+    background-image: url("images/footwear-img1.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.card-accessories {
+    background-image: url("images/accessories-img1.jpg");
+    background-size: cover;
+}
+
+.card-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer {
+    background-color:rgb(107, 137, 153);
+    color: rgb(7, 7, 63);
+    text-align: center;
+    padding: 20px 0;
+    margin:20px 0;
+  }
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.coupon-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:0px;
+}
+.coupon{
+    height:350px;
+    width:400px;
+}
+.coupon-para{
+    margin-top:100px;
+    margin-bottom:5px;
+    padding-right:30px;
+    text-align: center;
+}
